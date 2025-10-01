@@ -1,0 +1,248 @@
+# seed_data.py
+monster_entries = [
+    # River Wraith
+    {
+        "title": "River Wraith - Lower Salmon River",
+        "author": "Brother Marcus",
+        "date": "1823",
+        "text": "Encountered what locals call a 'drowner' near the old mill, though it matches descriptions of a river wraith. The creature fled when I threw salt into the water - seems to cause them genuine pain. Lost two fingers to frostbite after it touched me, despite it being mid-July.",
+    },
+    {
+        "title": "Water Spirit Attack",
+        "author": "Helena Voss",
+        "date": "1889",
+        "text": "The wraith appeared as a beautiful woman until I got close, then revealed its true rotting form. Silver blade passed right through it like smoke. Only escaped by crossing the bridge - it wouldn't follow over running water, which makes no sense since it lives IN water.",
+    },
+    {
+        "title": "Dealing with Drowners",
+        "author": "Thomas Blackwood",
+        "date": "1901",
+        "text": "River wraith killed three fishermen this month, always at dusk. Fire seems to work - burned the old dock where it was anchored and haven't seen it since. Note: they can't leave their body of water, but can reach about 20 feet onto shore with their freezing mist.",
+    },
+    {
+        "title": "Failed Wraith Hunt",
+        "author": "Samuel Grey",
+        "date": "1856",
+        "text": "Tried to trap a river wraith using iron chains blessed by Father Miguel - complete failure. The creature laughed as it flowed through the chains like water. Local wise woman claims only burning their original human bones will banish them permanently.",
+    },
+    {
+        "title": "River Deaths Investigation",
+        "author": "Marie Castellan",
+        "date": "1912",
+        "text": "Seven drownings this summer, all strong swimmers who knew the river well. Found strange ice crystals on the bodies despite the heat. The wraith seems to hunt more actively during new moons - darkness might embolden them.",
+    },
+    {
+        "title": "Wraith Characteristics",
+        "author": "Dr. E. Hartwell",
+        "date": "1895",
+        "text": "Specimen appears to be the spirit of someone who drowned, bound to the location of their death. They emanate cold - thermometer dropped 40 degrees when it manifested. Cannot exist in flowing water over 3mph, prefers still pools and slow bends.",
+    },
+    {
+        "title": "Emergency Treatment - Wraith Touch",
+        "author": "Sister Catherine",
+        "date": "1878",
+        "text": "If touched by a river wraith, immediately warm the affected area or risk permanent frostbite. Mix equal parts whiskey and cayenne pepper, heat until steaming, apply to blackened skin. Patient reported seeing his dead daughter in the water before the attack - they use our memories as lures.",
+    },
+    {
+        "title": "Old Willie's Warning",
+        "author": "Jacob Morrison",
+        "date": "1834",
+        "text": "Local drunk claims river wraith saved him from bandits - says if you bring it copper coins it might leave you be. Tested this myself and nearly got dragged under. However, did notice it recoiled when I held up a mirror - perhaps they can't stand their own reflection?",
+    },
+    # Barghest
+    {
+        "title": "Black Dog Sighting",
+        "author": "Father Timothy",
+        "date": "1867",
+        "text": "Massive black hound with burning red eyes seen outside the church three nights running - always before someone dies. Size of a calf but moves silent as death. Consecrated ground seems to bar it - it paces the cemetery fence but won't enter.",
+    },
+    {
+        "title": "Barghest Attack Survivor",
+        "author": "William Crane",
+        "date": "1903",
+        "text": "The beast knocked me down, stood on my chest - felt like a mountain crushing me. Could smell sulfur and rot on its breath, but when I said the Lord's Prayer it vanished like smoke. Left four claw marks that won't heal proper, even after six months.",
+    },
+    {
+        "title": "Hellhound or Barghest?",
+        "author": "Prof. Edmund Blackstone",
+        "date": "1891",
+        "text": "Locals call it a hellhound but characteristics match Yorkshire barghest legends. Appears as death omen - seen it twice, both times someone died within three days. Silver bullets passed through it harmlessly, but iron filings made it solid enough to wound.",
+    },
+    {
+        "title": "The Churchyard Beast",
+        "author": "Mary Hawthorne",
+        "date": "1845",
+        "text": "Saw the black dog clear as day while tending father's grave - bigger than any mastiff, with eyes like hot coals. It walked through the headstones, leaving scorched grass in its wake. They say seeing it means you'll die within the year, but I'm still here five winters later.",
+    },
+    {
+        "title": "Pack Hunter Warning",
+        "author": "Red McKinnon",
+        "date": "1888",
+        "text": "Barghest usually hunts alone but I swear I saw three of them running together under the full moon. They were chasing something I couldn't see, howling like the damned. Next morning found a whole herd of cattle dead, not a mark on them, just frozen in terror.",
+    },
+    {
+        "title": "Binding the Black Dog",
+        "author": "Agatha Cromwell",
+        "date": "1872",
+        "text": "Successfully trapped a barghest using a circle of cold iron railroad spikes and rock salt. The creature raged for three hours before dawn broke and it faded away. Found a human collar bone where it had been - might be shapeshifters, not spirits.",
+    },
+    {
+        "title": "Death Omen Documented",
+        "author": "Dr. Marcus Webb",
+        "date": "1899",
+        "text": "Patient reported seeing large black dog following him for a week before developing consumption. Three other patients made similar claims before fatal illnesses. Either the creature causes the death or merely foretells it - unsure which is more terrifying.",
+    },
+    {
+        "title": "Mountain Road Encounter",
+        "author": "James Sullivan",
+        "date": "1812",
+        "text": "Black dog appeared on the mountain pass, blocking our way - stood tall as my horse. When we tried to go around, it appeared ahead of us again. Finally threw my mother's silver cross at it and it vanished, but the cross was found melted into a puddle.",
+    },
+    # Wendigo
+    {
+        "title": "Windigo - Cree Territory",
+        "author": "French Trapper Jean",
+        "date": "1798",
+        "text": "The Cree won't speak its name, just point to the mountains and shake their heads. Found tracks in the snow - human but wrong, toes too long, stride impossible. It screams like a man dying, trying to lure rescue parties into the woods.",
+    },
+    {
+        "title": "Cannibal Spirit",
+        "author": "Captain Morrison",
+        "date": "1847",
+        "text": "Lost three men on patrol - found them partially eaten, bite marks clearly human but larger. The thing that did it walked upright but left claw marks fifteen feet up the trees. Local tribes say it was once a man who ate human flesh in desperation.",
+    },
+    {
+        "title": "Winter Hunger",
+        "author": "Elisabeth Grey",
+        "date": "1863",
+        "text": "It came during the blizzard, scratching at our cabin walls, calling out in my dead son's voice. Nearly opened the door before remembering the stories - wendigos can mimic voices of loved ones. Fire is the only thing that keeps it at bay, but we're running out of wood.",
+    },
+    {
+        "title": "The Endless Hunter",
+        "author": "Black Elk (translated)",
+        "date": "1854",
+        "text": "Wendigo is always starving, no matter how much it eats - cursed with hunger that can't be satisfied. Fast as the wind, tall as the trees, but thin like it's starving. Burns to death in fire but hard to catch - it knows the forest better than any man.",
+    },
+    {
+        "title": "Transformation Witnessed",
+        "author": "Dr. Lawrence Ashford",
+        "date": "1889",
+        "text": "Watched a man turn into the creature after resorting to cannibalism during the harsh winter. His teeth grew long, fingers stretched into claws, and his eyes went yellow. He begged me to kill him before the hunger took over - I obliged with fire.",
+    },
+    {
+        "title": "Wendigo Weaknesses",
+        "author": "Joseph Crow Feather",
+        "date": "1876",
+        "text": "Silver doesn't work, iron doesn't work, but fire always works if you can hit it. The creature fears flame above all else - even a torch will make it keep distance. Also can't cross running water during daylight, but at night nothing stops it.",
+    },
+    {
+        "title": "Possession or Transformation?",
+        "author": "Sister Margaret",
+        "date": "1881",
+        "text": "Debate whether wendigo possesses a person or if the person becomes the wendigo. Witnessed case where victim retained enough humanity to warn us before attacking. Holy water had no effect, suggesting physical transformation rather than spiritual possession.",
+    },
+    {
+        "title": "Tracking the Beast",
+        "author": "Mountain Mike",
+        "date": "1895",
+        "text": "Wendigo leaves no tracks in fresh snow but deep gouges in hard earth - makes no damn sense. Smell gives it away though - reeks of frozen meat and copper. If you smell that in the woods, you're already too close - run and don't look back.",
+    },
+    # Striga
+    {
+        "title": "The Cursed Child",
+        "author": "Polish Immigrant Kowalski",
+        "date": "1902",
+        "text": "Striga is not vampire, not werewolf, but cursed human - usually firstborn daughter. By day, normal woman, but at midnight transforms into monster. Only way to lift curse is to prevent her from returning to coffin before third crow of rooster.",
+    },
+    {
+        "title": "Striga Feeding Patterns",
+        "author": "Dr. Victoria Ashworth",
+        "date": "1887",
+        "text": "Subject feeds exclusively on blood but prefers that of drunk men - alcohol in bloodstream seems to intoxicate the creature. Unlike vampires, striga can enter churches and touch holy items. Silver burns them but doesn't kill - only decapitation or complete burning works.",
+    },
+    {
+        "title": "Village Curse Investigation",
+        "author": "Father Andreas",
+        "date": "1856",
+        "text": "Entire village knew the baker's daughter was striga but protected her for twenty years. She only hunted bandits and criminals, never touched innocent blood. When hunters came for her, the whole town lied to protect her - perhaps not all monsters need killing.",
+    },
+    {
+        "title": "Identifying a Striga",
+        "author": "Helena the Witch Hunter",
+        "date": "1834",
+        "text": "Striga appears normal during day but look for signs - unusual birthmarks, different colored eyes, abnormal strength. They can't eat normal food, only pretend. Put garlic in their wine and watch them choke - that's your proof.",
+    },
+    {
+        "title": "Breaking the Curse",
+        "author": "Brother Francis",
+        "date": "1878",
+        "text": "Successfully cured a striga by keeping her out of her crypt until dawn - took six strong men to hold her. When the sun rose, she turned back to human and stayed human. Girl remembered nothing of her thirteen years as a monster.",
+    },
+    {
+        "title": "Striga Strength Documentation",
+        "author": "Lieutenant Morrison",
+        "date": "1891",
+        "text": "Creature threw a full-grown horse through a barn wall. Took eight bullets to the chest, kept coming, only stopped when we set it on fire. Next morning, found the mayor's daughter's grave empty - she'd been dead three years, apparently not as dead as we thought.",
+    },
+    {
+        "title": "The Willing Striga",
+        "author": "Anonymous Hunter",
+        "date": "1869",
+        "text": "Met a striga who knew what she was, kept herself chained during transformations. Said the curse passes down maternal bloodlines - her grandmother had it too. Begged me to kill her before she had children, but I couldn't do it.",
+    },
+    {
+        "title": "Striga vs Vampire",
+        "author": "Prof. Van Helsing Jr.",
+        "date": "1897",
+        "text": "Key differences: striga maintains heartbeat, doesn't need invitation to enter homes, and transforms on schedule not at will. Both drink blood but striga tears flesh too. Wooden stake through heart only annoys a striga - need to remove head and burn separately.",
+    },
+    # Leshen
+    {
+        "title": "Forest Guardian Encounter",
+        "author": "Russian Woodsman Dmitri",
+        "date": "1881",
+        "text": "Leshen looks like tree came alive - antlers of deer, body of bark and root, skull of animal for face. Protects its forest viciously, controls wolves and crows as spies. Leave offering of fresh blood at forest edge or it marks you for death.",
+    },
+    {
+        "title": "The Root Walker",
+        "author": "Native Guide Running Bear",
+        "date": "1845",
+        "text": "White men call it wood demon but it's older than demons - spirit of the forest itself. Can travel through roots, appearing from any tree in its domain. If you must kill one, burn its totem first - usually a skull hanging from oldest tree.",
+    },
+    {
+        "title": "Leshen's Revenge",
+        "author": "Logger's Widow Sarah",
+        "date": "1892",
+        "text": "Husband's crew cut down the old grove for railroad ties, despite my warnings about the guardian. Leshen sent wolves first, then plague of ravens, finally came itself. Found the men grown into trees, still alive but rooted - death would've been kinder.",
+    },
+    {
+        "title": "Negotiating with Leshy",
+        "author": "Polish Settler Wojciech",
+        "date": "1867",
+        "text": "In old country, we made pacts with leshy - leave certain trees, don't hunt in spring, and it protects your village. Tried same here but American leshen more wild, more angry. Still, leaving bread and salt at forest shrine seems to appease it.",
+    },
+    {
+        "title": "Destroying a Leshen",
+        "author": "Monster Hunter Cole",
+        "date": "1888",
+        "text": "Killed one after it murdered six settlers - hardest hunt of my life. Had to find and burn its totem while it sent every beast in the forest after me. Even after destroying the totem, had to use fire and iron to put it down - regular weapons just made it angry.",
+    },
+    {
+        "title": "Living Forest Theory",
+        "author": "Naturalist Dr. Green",
+        "date": "1899",
+        "text": "Leshen might not be separate entity but manifestation of forest's will - explains why killing one sometimes just makes another appear. Notice they only attack those who harm the forest. Perhaps coexistence is possible if we respect their territory.",
+    },
+    {
+        "title": "The Child Taker",
+        "author": "Village Teacher Ms. Brown",
+        "date": "1873",
+        "text": "Local leshen keeps taking children who wander into woods, but returns them unharmed if village leaves proper offerings. Children claim they played with forest spirits and learned secret of speaking to trees. Better than them being eaten, I suppose.",
+    },
+    {
+        "title": "Leshen Abilities Documented",
+        "author": "Ranger Thompson",
+        "date": "1896",
+        "text": "Can control all plant growth in its territory - vines grab you, roots trip you, branches form cages. Also commands any animal that lives in its forest. Appears to teleport but actually travels through root network underground - fire stops this movement.",
+    },
+]
